@@ -1,0 +1,295 @@
+.clickable-div {
+  transition: background-color 0.3s;
+}
+
+.clickable-div:hover {
+  background-color: transparent;
+}
+
+.clickable-div:active {
+  background-color: gray;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.right-message {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+  margin-left: 900px;
+}
+
+.left-message {
+  background-color: #f1f1f1;
+  color: black;
+  align-self: flex-start;
+}
+
+.max-width-message {
+  max-width: 500px;
+}
+
+.min-width-message {
+  max-width: 100px;
+}
+
+.chatProfile {
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
+
+.chatUprCont {
+  margin-left: 40px;
+  margin-bottom: -28px;
+}
+
+.chatMainPro {
+  margin-top: 30px;
+}
+
+.chatProName {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.chatMyNmLf {
+  margin-left: 20px;
+  position: relative;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatMyNmRt {
+  margin-left: 20px;
+  position: relative;
+  bottom: 21px;
+}
+
+.chatUndName {
+  margin-left: 20px;
+  font-family: Georgia, serif;
+  margin-top: -1px;
+  position: relative;
+  bottom: 5px;
+}
+
+.chatConver {
+  font-family: Georgia, serif;
+  margin-left: 80px;
+  position: relative;
+  top: 120px;
+  right: 35px;
+}
+
+.chatImgName {
+  border-radius: 60%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.text-2xl {
+  position: relative;
+  bottom: 9px;
+  display: inline;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: Georgia, serif;
+}
+
+.textEml {
+  position: relative;
+  bottom: 9px;
+  display: inline;
+  cursor: pointer;
+  font-family: Georgia, serif;
+}
+
+.chatHrElm {
+  display: block;
+  width: 115%;
+}
+
+.chatMainBgDp {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-bottom: -10px;
+}
+
+.chatRowLeftCont {
+  height: 100vh;
+  width: 220vh;
+  background: white;
+  color: black;
+  padding: 40px;
+  margin-top: 250px;
+  overflow: auto;
+}
+
+.chatColRightCont {
+  padding-right: 10px;
+}
+
+/* .chatMyUniqForm:hover {
+  cursor: pointer;
+  background-color: #dbd9d9;
+  width: 115%;
+} */
+
+.chatMyUniqForm {
+  width: 115%;
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+  position: relative;
+  right: 17px;
+}
+
+.chatMyUniqForm:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+.chatInputContainer {
+  border-radius: 30px;
+  position: relative;
+}
+
+.chatInputWrapper {
+  width: 100%;
+}
+
+.chatInputForm {
+  width: 100%;
+}
+
+.chatInputField {
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+}
+
+.chatIconButton {
+  margin-right: 1px;
+  margin-left: 8px;
+  background-color: transparent !important;
+  border: none !important;
+  color: #495057 !important;
+}
+
+.chatIconButton:hover {
+  background-color: transparent !important;
+  color: #868889 !important;
+}
+
+.chatIconButton:focus {
+  background-color: transparent !important;
+  color: #868889 !important;
+}
+
+.chatIconButton1 {
+  margin-right: -10px;
+  margin-left: 8px;
+  background-color: transparent !important;
+  border: none !important;
+  color: #495057 !important;
+}
+
+.chatIconButton1:hover {
+  background-color: transparent !important;
+  color: #868889 !important;
+}
+
+.chatIconButton1:focus {
+  background-color: transparent !important;
+  color: #868889 !important;
+}
+
+.chatSendButton {
+  margin-left: 5px;
+  border-radius: 50px !important;
+  /* margin-right: 1px; */
+  background-color: rgb(186, 27, 27) !important;
+  border-color: rgb(186, 27, 27) !important;
+}
+
+.chatSendButton:focus {
+  font-variant: normal;
+}
+
+.chatMsgCont {
+  border: none !important;
+  font-family: Georgia, serif;
+}
+
+.chatMsgBgClr {
+  background-color: #62a9a0;
+}
+
+/* Styles for tablet screens */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .border.w-25.mdQuAcntCht {
+    width: 30% !important;
+  }
+
+  .mdQuchatMainPro {
+    margin-left: -50px;
+  }
+
+  .mdQuNechImg {
+    margin-left: -30px;
+  }
+
+  .mdQuchatMyUniqForm {
+    width: 124% !important;
+  }
+
+  .mdQuOnl {
+    position: absolute;
+    top: 20px;
+    left: 320px !important;
+    margin: auto;
+    z-index: 10;
+    width: calc(10% - 3px) !important;
+    padding: 18px;
+    border-radius: 20px !important;
+    background-color: transparent !important;
+  }
+
+  .mdQumainBgDp {
+    margin-left: -20px !important;
+  }
+
+  .mdQuMvRght {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    margin-right: 0;
+    transform: translateX(-50px);
+  }
+
+  .mdChtMsg {
+    margin-top: 150px;
+  }
+}

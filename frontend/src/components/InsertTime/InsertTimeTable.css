@@ -1,0 +1,165 @@
+.insrtTmTl {
+  margin-top: 10px !important;
+}
+
+.adMrBtnInstTm {
+  font-family: Georgia, serif !important;
+  background-color: rgb(186, 27, 27) !important;
+  border-color: rgb(186, 27, 27) !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  height: 45px;
+  min-width: 180px !important;
+  font-size: 15px !important;
+  color: white !important;
+  transition: color 0.5s ease-in-out;
+}
+
+.adMrBtnInstTm:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  z-index: 1 !important;
+}
+
+.adMrBtnInstTm:hover:after {
+  transform: translateX(0%);
+}
+
+.adMrBtnInstTm:hover {
+  color: rgb(186, 27, 27) !important;
+  border-color: rgb(186, 27, 27) !important;
+  /* background-color: white; */
+}
+
+.adMrBtnInstTm span {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.timetable-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the container to full viewport height */
+  font-family: Georgia, serif;
+}
+
+.timetable-card {
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Add padding to the card */
+}
+
+.timetable {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 100%; /* Set the table width to 100% */
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.selected {
+  background-color: rgb(223, 140, 140);
+  /* background-color: #7ebafa; */
+  /* background-color: rgb(255, 137, 137); */
+  color: #fff;
+}
+
+.selected-slots {
+  margin-top: 20px;
+}
+
+.selected-slots h4 {
+  margin-bottom: 10px;
+}
+
+.selected-slots ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.tmtbCont {
+  background-color: #f6f4f4;
+  padding: 20px;
+}
+
+.tmtbCrd {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.tmtbl {
+  width: 100%;
+  border-collapse: separate;
+  margin-bottom: 30px;
+}
+
+.hrKi {
+  /* border-bottom: 1px solid #ffb6b6 !important; */
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(241, 241, 241) !important;
+  font-weight: bold;
+}
+
+.dyOfWk {
+  /* border-bottom: 1px solid #ffb6b6 !important; */
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  font-weight: bold;
+}
+
+.empty-col {
+  background-color: rgb(
+    241,
+    241,
+    241
+  ) !important; /* Yahan aap apni marzi ka color daal sakti hain */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.tmtbl tr {
+  animation: 1s ease-out 0s 1 slideInFromBottom;
+}

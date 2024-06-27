@@ -1,0 +1,141 @@
+history.css
+
+.history {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.historyTable {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.historyTable th,
+.historyTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.historyTable th {
+  /* background-color: #e5c084;
+  background-color: #f2f2f2; */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.historyTable td {
+  background-color: #f3f3f3;
+}
+
+.performanceMetrics {
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.performanceMetrics h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.performanceMetrics p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.availabilityHistory {
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.availabilityHistory h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.availabilityTable {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.availabilityTable th,
+.availabilityTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.availabilityTable th {
+  background-color: #e8c182;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.availabilityTable td {
+  background-color: #f3f3f3;
+}
+
+.sessionHistoryClass {
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.sessionHistoryClass h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.performanceReviews {
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.performanceReviews h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.performanceTable {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.performanceTable th,
+.performanceTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.performanceTable th {
+  background-color: #a0d2a7;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.performanceTable td {
+  background-color: #f3f3f3;
+}

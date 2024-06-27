@@ -1,0 +1,23 @@
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .star-rating {
+    color: gold;
+    display: inline-block;
+    font-size: 4em;
+    position: relative;
+    /* transform: translate(-6px); */
+  }
+  
+  .star-rating__max,
+  .star-rating__current {
+    position: absolute;
+    top: 0;
+  }
+  
+  .star-rating__current {
+    overflow: hidden;
+    white-space: nowrap;
+  }

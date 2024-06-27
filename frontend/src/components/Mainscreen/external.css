@@ -1,0 +1,113 @@
+.search-button,
+.filter-button,
+.search-bar,
+.top-ml,
+h1 {
+  font-size: 90px !important;
+}
+
+/* .adFltr,
+.clrFltr {
+  border-color: rgb(186, 27, 27) !important;
+  background-color: white !important;
+  color: rgb(186, 27, 27) !important;
+  transition: all 0.3s ease !important;
+}
+
+.adFltr:hover,
+.clrFltr:hover {
+  border-color: rgb(186, 27, 27) !important;
+  background-color: rgb(186, 27, 27) !important;
+  color: white !important;
+} */
+
+/*  */
+
+.adFltr,
+.clrFltr {
+  font-family: Georgia, serif !important;
+  background-color: white !important;
+  border-color: rgb(186, 27, 27) !important;
+  color: rgb(186, 27, 27) !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  height: 50px;
+  font-size: 15px !important;
+}
+
+.adFltr:after,
+.clrFltr:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(186, 27, 27);
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.adFltr:hover:after,
+.clrFltr:hover:after {
+  transform: translateX(0%);
+}
+
+.adFltr:hover,
+.clrFltr:hover {
+  color: white !important;
+  border-color: rgb(186, 27, 27) !important;
+  /* background-color: white; */
+}
+
+/*  */
+
+.srchFltr {
+  border: 1px solid rgb(186, 27, 27) !important;
+}
+
+.offcanvas-header .btn-close {
+  color: red !important;
+}
+.offcanvas-header .btn-close:hover {
+  color: darkred !important;
+}
+
+@media (max-width: 769px) and (max-width: 992px) {
+  .search-button,
+  .filter-button,
+  .search-bar,
+  .top-ml {
+    font-size: 50px !important;
+    width: 20%;
+  }
+  h1 {
+    font-size: 10px !important;
+  }
+}
+
+@media (min-width: 993px) {
+  .search-button,
+  .filter-button {
+    font-size: 25px !important;
+  }
+
+  h1 {
+    font-size: 35px !important;
+  }
+}
+
+@media (min-width: 320px) {
+  .search-button,
+  .filter-button .search-bar,
+  .top-ml {
+    font-size: 7px !important;
+  }
+
+  h1 {
+    font-size: 10px !important;
+  }
+}

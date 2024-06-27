@@ -1,0 +1,75 @@
+.timetable-container {
+  margin-top: -230px;
+  display: flex;
+}
+
+.timetable {
+  width: 90% !important;
+  border-collapse: collapse;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #f2f2f2;
+}
+
+.time-col {
+  min-width: 80px;
+}
+
+.time-cell {
+  font-weight: bold;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #f2f2f2;
+}
+
+.time-col {
+  min-width: 80px; /* Adjust width of time column */
+}
+
+.time-cell {
+  font-weight: bold;
+}
+
+.selected {
+  background-color: rgb(39, 161, 202);
+  cursor: pointer;
+}
+
+.accepted {
+  background-color: rgb(141, 24, 24);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .mdQuUpldTm3 {
+    margin-left: 250px !important;
+    white-space: nowrap;
+  }
+
+  .mdQutmtblCot3 {
+    margin-top: -150px !important;
+  }
+}

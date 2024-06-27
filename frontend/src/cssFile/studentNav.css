@@ -1,0 +1,328 @@
+.he {
+  height: "200px";
+  font-family: "Georgia, serif";
+  font-size: 400px;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav {
+  padding: 10px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 190px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 190px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: 5px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+  margin-right: 30px;
+  font-size: 16px;
+  /* Set the appropriate font size value */
+}
+
+.nav-link:hover {
+  border-bottom-color: darkblue;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  border-bottom: 5px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+
+/* .navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  border-bottom-color: darkblue;
+} */
+
+.navbar-nav,
+.navbar-nav {
+  border-bottom-color: darkblue;
+}
+
+/* HAMMAD */
+
+/* .mainC {
+  height: 100%;
+  padding: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mainC1 {
+  background-color: rgb(234, 234, 234);
+  height: 100%;
+  padding: 50px;
+  border-radius: 8px;
+  width: 1300px;
+  margin-left: -200px;
+
+} */
+
+.custom-container {
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainC1 {
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.custom-container .MuiTypography-h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.custom-container .MuiFormControl-root {
+  width: 100%;
+}
+
+.custom-container .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.custom-container .MuiButton-root {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.custom-container .MuiFormLabel-root.Mui-focused {
+  color: black;
+}
+
+.contain {
+  border-style: dotted;
+  border-color: blue;
+  border: 1px;
+}
+
+.mainC {
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainC1 {
+  border: 1px solid #ddd !important;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.mainC .MuiTypography-h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.mainC .MuiFormControl-root {
+  width: 100%;
+}
+
+.mainC .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.mainC .MuiButton-root {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.imge {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-left: 550px;
+  /* border: 2px solid dotted purple; */
+  border-radius: 20px;
+}
+
+.file-margin {
+  margin-top: 1196px;
+  margin-right: 20px;
+}
+
+.img-button {
+  margin-top: 66px;
+  font-family: Georgia, serif;
+}
+
+.text {
+  font-family: Georgia, serif;
+  margin-left: 225px;
+  margin-top: 20px;
+  white-space: nowrap;
+  color: #333;
+}
+
+.top-ml {
+  margin-left: 60px;
+}
+
+.dashboard-heading-profile {
+  font-size: 40px;
+  font-weight: bold;
+  color: #6c757d;
+  text-align: center;
+  margin: -10px 0;
+  margin-bottom: 30px;
+}
+
+.customFont {
+  font-family: Georgia, serif;
+}
+
+/* NAVBAR */
+
+/* Dropdown item styling */
+.dropdown-item {
+  color: gray;
+}
+
+.subHed {
+  color: #4c4c4d !important;
+  font-size: 25px !important;
+}
+
+.subHed:hover {
+  color: rgb(186, 27, 27) !important;
+  transition: color 0.4s ease;
+}
+
+.subHed1 {
+  color: #4c4c4d !important;
+  font-size: 25px !important;
+  padding-left: 400px !important;
+  /* margin-left: 400px !important; */
+}
+
+.subHed1:hover {
+  color: rgb(186, 27, 27) !important;
+  transition: color 0.4s ease;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* .mdQuHEhe {
+    height: 48px;
+  } */
+
+  .mdQudFlx {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    flex: 1 !important;
+  }
+
+  .mdQuCusNvTgl {
+    background-color: transparent !important;
+    border: 2px solid black !important;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: auto;
+    margin-top: 6px;
+  }
+
+  .mdQuTglIcn {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+  }
+
+  .mdQudshBrd {
+    padding-left: 0 !important;
+  }
+
+  .mdQuAnmDrp {
+    position: relative !important;
+    transition: padding-left 0.5s ease !important;
+  }
+
+  .mdQuAnmDrp:hover {
+    color: rgb(186, 27, 27) !important;
+    background-color: transparent !important;
+    padding-left: 50px !important;
+  }
+
+  .mdQuAnmDrp::before {
+    content: "" !important;
+    position: absolute !important;
+    left: -30px !important;
+    width: 20px !important;
+    height: 8px !important;
+    transform: skew(20deg) !important;
+    transition: all 0.5s ease !important;
+    margin-top: 15px !important;
+  }
+
+  .mdQuAnmDrp:hover::before {
+    left: 20px !important;
+    background-color: rgb(186, 27, 27) !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mdQudshBrd {
+    padding-left: 0 !important;
+  }
+
+  .mdQuFntSz3 {
+    font-size: 20px !important;
+  }
+
+  .mdQuAnmDrp {
+    position: relative !important;
+    transition: padding-left 0.5s ease !important;
+  }
+
+  .mdQuAnmDrp:hover {
+    color: rgb(186, 27, 27) !important;
+    background-color: transparent !important;
+    padding-left: 50px !important;
+  }
+
+  .mdQuAnmDrp::before {
+    content: "" !important;
+    position: absolute !important;
+    left: -30px !important;
+    width: 20px !important;
+    height: 8px !important;
+    transform: skew(20deg) !important;
+    transition: all 0.5s ease !important;
+    margin-top: 15px !important;
+  }
+
+  .mdQuAnmDrp:hover::before {
+    left: 20px !important;
+    background-color: rgb(186, 27, 27) !important;
+  }
+}

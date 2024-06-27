@@ -1,0 +1,168 @@
+.admin-portal {
+  font-family: "Georgia, serif";
+  
+}
+
+.gapup{
+  margin-top: 80px;
+  margin-bottom: 40px;
+  height: 80px;
+  background-color: #add8e6;
+
+}
+
+.admnContMain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.admnCont1 {
+  width: 100%;
+  background-color: #add8e6;
+  border-radius: 10px;
+  margin-left: -40px;
+  padding: 20px;
+}
+
+
+aside {
+  color: #fff;
+  width: 350px;
+  padding-left: 20px;
+  height: 100vh;
+  background-image: linear-gradient(30deg , #0048bd, #44a7fd);
+  border-top-right-radius: 80px;
+}
+
+aside a {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  display: block;
+  padding: 12px;
+  padding-left: 30px;
+  text-decoration: none;
+  -webkit-tap-highlight-color:transparent;
+}
+
+aside a:hover {
+  color: #3f5efb;
+  background: #fff;
+  outline: none;
+  position: relative;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+aside a i {
+  margin-right: 5px;
+}
+
+aside a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+
+aside a:hover::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 38px;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+aside p {
+  margin: 0;
+  padding: 40px 0;
+}
+
+body {
+  font-family: 'Roboto';
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.social {
+  height: 0;  
+}
+
+.social i:before {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077B5;
+  padding: 10px;
+  border-radius: 50%;
+  top:5px;
+  right:5px;
+}
+
+
+.table-container {
+  overflow-y: auto;
+  max-height: 660px;
+  margin-bottom: 10px;
+}
+
+.admnTblCon1 {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  table-layout: fixed;
+}
+
+.admnTh {
+  font-weight: bold !important;
+  font-size: 25px;
+  text-align: center;
+}
+
+.admnTchrImg {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.admnAprvBtn {
+  background-color: #71b0f3 !important;
+  border: none !important;
+  color: white;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px !important;
+  transition-duration: 0.4s;
+}
+
+.admnAprvBtn:hover {
+  background-color: white !important;
+  color: #6396cd !important;
+  border: 1px solid #6396cd !important;
+}
+
+.modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,190 @@
+.timetable-container {
+  margin: 1990px;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 100px;
+}
+.selected {
+  background-color: red;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #f2f2f2;
+}
+
+.time-col {
+  min-width: 80px;
+}
+
+.time-cell {
+  font-weight: bold;
+}
+
+.timetable-container {
+  margin: 20px auto;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #f2f2f2;
+}
+
+.time-col {
+  min-width: 80px; /* Adjust width of time column */
+}
+
+.time-cell {
+  font-weight: bold;
+}
+
+.selected {
+  background-color: rgb(
+    39,
+    161,
+    202
+  ); /* Change color for selected time slots */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* TimeTable.css */
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #f2f2f2;
+}
+
+.selected {
+  background-color: green; /* Define the background color for selected slots */
+}
+
+.from-database {
+  background-color: yellow; /* Define the background color for slots coming from the database */
+}
+
+.red {
+  background-color: red;
+}
+
+.timetable-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timetable-container h3 {
+  margin-bottom: 20px;
+}
+
+.timetable-container table {
+  margin-bottom: 20px;
+}
+
+.timetable-container .buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timetable-container .buttons-container button {
+  margin: 5px;
+}
+
+.timetable-container .selected-slots {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mrgnTTp {
+  margin-top: -170px !important;
+}
+
+.adMrBtnHm21 {
+  font-family: Georgia, serif !important;
+  background-color: rgb(186, 27, 27) !important;
+  border-color: rgb(186, 27, 27) !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  height: 45px;
+  min-width: 180px !important;
+  font-size: 15px !important;
+  text-transform: none !important;
+  color: white !important;
+  transition: color 0.5s ease-in-out;
+}
+
+.adMrBtnHm21:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  z-index: 1 !important;
+}
+
+.adMrBtnHm21:hover:after {
+  transform: translateX(0%);
+}
+
+.adMrBtnHm21:hover {
+  color: rgb(186, 27, 27) !important;
+  border-color: rgb(186, 27, 27) !important;
+  /* background-color: white; */
+}
+
+.adMrBtnHm21 span {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.btnCntnrTmm {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  /* display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important; */
+}
+
+.btnRow1 {
+  display: flex;
+  flex-direction: row;
+}

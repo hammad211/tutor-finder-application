@@ -1,0 +1,56 @@
+.schedule {
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+}
+
+.dateTable {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.hr-tag {
+  width: "100%";
+  border: "2px solid #000";
+}
+
+.family {
+  font-family: "Georgia, serif";
+}
+.timeTable {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.scheduleTable {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.scheduleTable th,
+.scheduleTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.scheduleTable th {
+  /* background-color: #9cbde2; */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.scheduleTable td {
+  /* background-color: #f3f3f3; */
+}
+
+.scheduleTable td:hover {
+  /* background-color: #bab5b5; */
+}
+
+.scheduleHRe {
+  margin-top: 50px;
+}

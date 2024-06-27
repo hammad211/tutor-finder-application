@@ -1,0 +1,94 @@
+.main {
+  color: #1a1a1a;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: center;
+  /* background: #757f9a; */
+  /* background: -webkit-linear-gradient(to left, #d7dde8, #757f9a); */
+  /* background: linear-gradient(to left, #d7dde8, #757f9a); */
+}
+
+#content {
+  max-width: 1200px;
+  margin: 25vh auto;
+}
+
+.testimonial blockquote {
+  margin: 10px 10px 0 !important;
+  background: #efefef;
+  padding: 20px 60px;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 35px;
+  width: 1200px;
+  margin-top: -5px !important;
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 75px;
+  line-height: 1;
+  color: #757f9a;
+  font-style: normal;
+}
+
+.testimonial blockquote:before {
+  top: 0;
+  left: 10px;
+}
+
+.testimonial blockquote:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -0.5em;
+}
+
+.testimonial div {
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #efefef;
+  margin: 0 0 0 60px;
+}
+
+.testimonial p {
+  margin: 8px 0 0 20px;
+  text-align: left;
+  color: #080808;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.reviwH1 {
+  font-size: 31px !important;
+  font-weight: bold;
+  position: relative;
+  top: -120px;
+  color: #4c4c4d;
+  line-height: 1.1;
+  margin-bottom: -65px !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .mdQutestblk {
+    width: 800px !important;
+    font-size: 30px !important;
+    position: relative;
+    left: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mdQutestblk3 {
+    width: 300px !important;
+    font-size: 20px !important;
+    position: relative;
+    left: 40px !important;
+  }
+}
