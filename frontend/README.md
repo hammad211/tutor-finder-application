@@ -153,7 +153,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Ensure that your backend is running before starting the frontend app, as the frontend communicates with the backend API.
 - You can deploy the frontend using platforms like **Netlify**, **Vercel**, or any static site hosting service.
 - If you're planning to use **Socket.io** in a production environment, make sure to set up a secure connection (e.g., `https://`).
-
----
-
-This **README** provides a clear guide to getting your **frontend tutor application** up and running. It offers detailed instructions on installation, configuration, and usage, and it’s designed to be easy to follow for any developer wanting to contribute or deploy the application.
