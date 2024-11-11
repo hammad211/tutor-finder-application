@@ -89,7 +89,8 @@ Here is an overview of the project structure:
 │   │   └── authService.js       # Handles login, register, etc.
 │   ├── App.js                   # Main component that routes and renders pages
 │   ├── index.js                 # Entry point for the React app
-│   └── .env                     # Environment variables (not committed)
+│
+└── .env                     # Environment variables (not committed)
 └── package.json                 # Project dependencies
 ```
 
